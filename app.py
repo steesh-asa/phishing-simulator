@@ -98,6 +98,14 @@ def log_action():
 def new_feature():
     return "This is a new feature!"
 
+@app.route('/another-new-feature')
+def new_feature():
+    return "This is also another new feature!"
+#run /launch app
+
+@app.route('/test-feature')
+def new_feature():
+    return "This is a test feature!"
 #run /launch app
 
 if __name__ == '__main__':
