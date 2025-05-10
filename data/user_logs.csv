@@ -4,3 +4,98 @@ timestamp,session_id,username,page_type,action,element,time_on_page_sec
 2025-05-08 19:36:51,472e5137-c14f-4a67-a590-4610e0667fac,guest,safe,hover,Transfer Funds,7.3
 2025-05-08 19:36:54,472e5137-c14f-4a67-a590-4610e0667fac,guest,safe,navigate,to-phish,9.98
 2025-05-08 19:36:56,472e5137-c14f-4a67-a590-4610e0667fac,guest,phish,hover,Unlock Account,2.27
+2025-05-10 15:58:02,f24c55df-f72e-4b94-8f5a-93757f8051d8,guest,,hover,Start Simulation,300.12
+2025-05-10 16:33:59,a41d9a9b-c409-442f-a568-6e6fbedd10ee,guest,,hover,Start Simulation,2199.37
+2025-05-10 16:34:01,a41d9a9b-c409-442f-a568-6e6fbedd10ee,sstteevve,safe,hover,Login,1.15
+2025-05-10 16:34:02,a41d9a9b-c409-442f-a568-6e6fbedd10ee,sstteevve,safe,hover,Check Balance,2.34
+2025-05-10 16:34:02,a41d9a9b-c409-442f-a568-6e6fbedd10ee,sstteevve,safe,hover,Transfer Funds,2.38
+2025-05-10 16:35:43,a41d9a9b-c409-442f-a568-6e6fbedd10ee,sstteevve,safe,navigate,to-phish,103.4
+2025-05-10 16:35:44,a41d9a9b-c409-442f-a568-6e6fbedd10ee,sstteevve,phish,hover,Unlock Account,1.43
+2025-05-10 16:35:45,a41d9a9b-c409-442f-a568-6e6fbedd10ee,sstteevve,phish,hover,Update Card Info,2.22
+2025-05-10 16:35:45,a41d9a9b-c409-442f-a568-6e6fbedd10ee,sstteevve,phish,hover,Verify Email,2.55
+2025-05-10 16:35:47,a41d9a9b-c409-442f-a568-6e6fbedd10ee,sstteevve,phish,navigate,to-safe,3.92
+2025-05-10 16:37:38,a41d9a9b-c409-442f-a568-6e6fbedd10ee,sstteevve,,hover,Start Simulation,111.55
+2025-05-10 18:20:05,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Login,9.19
+2025-05-10 18:20:06,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Check Balance,9.83
+2025-05-10 18:20:06,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Transfer Funds,10.11
+2025-05-10 18:20:06,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Transfer Funds,10.45
+2025-05-10 18:20:06,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Check Balance,10.46
+2025-05-10 18:20:06,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Login,10.51
+2025-05-10 18:20:10,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Login,13.61
+2025-05-10 18:20:10,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Check Balance,13.65
+2025-05-10 18:20:10,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Transfer Funds,13.68
+2025-05-10 18:20:11,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,navigate,to-phish,15.06
+2025-05-10 18:20:12,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,hover,Unlock Account,0.71
+2025-05-10 18:20:25,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,hover,Unlock Account,14.21
+2025-05-10 18:20:25,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,hover,Claim Your Reward,14.26
+2025-05-10 18:20:26,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,hover,Verify Email,14.59
+2025-05-10 18:20:27,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,navigate,to-safe,15.86
+2025-05-10 18:20:28,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Transfer Funds,0.85
+2025-05-10 18:20:28,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Check Balance,0.89
+2025-05-10 18:20:28,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Transfer Funds,0.95
+2025-05-10 18:20:28,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Transfer Funds,1.14
+2025-05-10 18:20:28,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Login,1.15
+2025-05-10 18:20:28,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Login,1.27
+2025-05-10 18:20:28,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Check Balance,1.3
+2025-05-10 18:20:28,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Transfer Funds,1.3
+2025-05-10 18:20:28,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Transfer Funds,1.37
+2025-05-10 18:20:28,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Check Balance,1.4
+2025-05-10 18:20:28,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Check Balance,1.57
+2025-05-10 18:20:28,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Transfer Funds,1.58
+2025-05-10 18:20:29,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Check Balance,1.67
+2025-05-10 18:20:29,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Check Balance,1.85
+2025-05-10 18:20:29,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Transfer Funds,1.89
+2025-05-10 18:20:29,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Check Balance,1.92
+2025-05-10 18:20:29,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Login,1.97
+2025-05-10 18:20:36,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Login,8.91
+2025-05-10 18:20:36,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Login,9.06
+2025-05-10 18:20:36,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Check Balance,9.11
+2025-05-10 18:20:36,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Transfer Funds,9.18
+2025-05-10 18:20:54,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Login,12.63
+2025-05-10 18:20:55,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Check Balance,13.03
+2025-05-10 18:20:55,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Transfer Funds,13.05
+2025-05-10 18:20:59,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,navigate,to-phish,17.08
+2025-05-10 18:21:01,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,hover,Unlock Account,2.57
+2025-05-10 18:21:13,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,hover,Unlock Account,14.2
+2025-05-10 18:21:14,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,hover,Update Card Info,14.87
+2025-05-10 18:21:15,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,click,update-card,15.94
+2025-05-10 18:21:15,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,hover,Claim Your Reward,16.2
+2025-05-10 18:21:16,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,click,claim-gift,16.72
+2025-05-10 18:21:16,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,hover,Verify Email,17.1
+2025-05-10 18:21:17,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,hover,Update Card Info,18.08
+2025-05-10 18:21:17,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,hover,Unlock Account,18.15
+2025-05-10 18:21:23,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,hover,Unlock Account,23.97
+2025-05-10 18:21:24,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,submit,phish-login-form,24.88
+2025-05-10 18:21:25,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,submit,phish-login-form,26.26
+2025-05-10 18:21:31,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,hover,Unlock Account,32.29
+2025-05-10 18:21:32,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,hover,Unlock Account,33.06
+2025-05-10 18:21:35,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,hover,Unlock Account,36.07
+2025-05-10 18:21:38,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,hover,Unlock Account,39.43
+2025-05-10 18:21:39,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,hover,Verify Email,39.77
+2025-05-10 18:21:40,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,navigate,to-safe,40.74
+2025-05-10 18:21:41,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Transfer Funds,0.89
+2025-05-10 18:21:41,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Login,0.93
+2025-05-10 18:22:01,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Login,21.76
+2025-05-10 18:22:04,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Login,24.37
+2025-05-10 18:22:04,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Check Balance,24.4
+2025-05-10 18:22:04,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Login,24.64
+2025-05-10 18:22:05,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Transfer Funds,25.02
+2025-05-10 18:22:05,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Check Balance,25.04
+2025-05-10 18:22:05,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Transfer Funds,25.74
+2025-05-10 18:22:07,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Transfer Funds,27.1
+2025-05-10 18:22:07,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Check Balance,27.15
+2025-05-10 18:22:07,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Login,27.69
+2025-05-10 18:22:09,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Login,29.7
+2025-05-10 18:22:12,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Check Balance,32.43
+2025-05-10 18:22:12,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Transfer Funds,32.6
+2025-05-10 18:22:12,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Check Balance,32.71
+2025-05-10 18:22:12,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Login,32.79
+2025-05-10 18:22:13,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Check Balance,32.92
+2025-05-10 18:22:13,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Transfer Funds,33.16
+2025-05-10 18:22:13,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Transfer Funds,33.48
+2025-05-10 18:22:13,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Check Balance,33.5
+2025-05-10 18:22:13,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Login,33.52
+2025-05-10 18:22:14,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Check Balance,34.15
+2025-05-10 18:22:14,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,hover,Transfer Funds,34.17
+2025-05-10 18:22:15,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,safe,navigate,to-phish,35.67
+2025-05-10 18:22:29,f24c55df-f72e-4b94-8f5a-93757f8051d8,  ssfdsfs,phish,hover,Unlock Account,13.57

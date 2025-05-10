@@ -43,10 +43,29 @@ def phishing_page():
 def leaderboard():
     if os.path.exists(LOG_FILE):
         df = pd.read_csv(LOG_FILE)
-        leaderboard = df['username'].value_counts().head(10).items()
+        user_groups = df.groupby('username')
+
+        leaderboard = []
+        for user, group in user_groups:
+            total_actions = len(group)
+            safe_actions = len(group[group['page_type'] == 'safe'])
+            phish_actions = len(group[group['page_type'] == 'phish'])
+            avg_time = round(group['time_on_page_sec'].mean(), 2)
+            leaderboard.append({
+                'username': user,
+                'total': total_actions,
+                'safe': safe_actions,
+                'phish': phish_actions,
+                'avg_time': avg_time
+            })
+
+        # Sort by total actions, descending
+        leaderboard = sorted(leaderboard, key=lambda x: x['total'], reverse=True)[:10]
     else:
         leaderboard = []
+
     return render_template('leaderboard.html', leaderboard=leaderboard)
+
 
 @app.route('/log', methods=['POST'])
 def log_action():
@@ -75,4 +94,4 @@ def log_action():
     return 'Logged', 200
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000)
