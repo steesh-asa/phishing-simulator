@@ -93,6 +93,11 @@ def log_action():
         print(f"⚠️ [Backup] Main log file locked. Data saved to {backup_file}")
     return 'Logged', 200
 
+
+@app.route('/new-feature')
+def new_feature():
+    return "This is a new feature!"
+
 #run /launch app
 
 if __name__ == '__main__':
