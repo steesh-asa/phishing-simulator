@@ -108,5 +108,15 @@ def new_feature():
     return "This is a test feature!"
 #run /launch app
 
+@app.route('/test-feature-v1')
+def new_feature():
+    return "This is a test feature-v1!"
+
+
+@app.route('/automated-test-feature-v1')
+def new_feature():
+    return "This is a test feature-v1!"
+#run /launch app
+
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000)
