@@ -93,5 +93,7 @@ def log_action():
         print(f"⚠️ [Backup] Main log file locked. Data saved to {backup_file}")
     return 'Logged', 200
 
+#run app
+
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000)
