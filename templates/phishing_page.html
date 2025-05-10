@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1 class="phish-header">⚠️ Account Suspended! Immediate Action Required ⚠️</h1>
+<p>Your account has been temporarily suspended due to suspicious login attempts.</p>
+
+<form onsubmit="logAction('submit', 'phish-login-form'); return false;">
+    <label>Email or Username:</label>
+    <input type="text" placeholder="you@example.com" required>
+    <label>Password:</label>
+    <input type="password" placeholder="Password" required>
+    <button type="submit" class="urgent-btn">Unlock Account</button>
+</form>
+
+<div class="popup">
+    <p>🚨 Update card details to prevent service disruption.</p>
+    <button onclick="logAction('click', 'update-card')">Update Card Info</button>
+</div>
+
+<div class="popup">
+    <p>🎁 Congratulations! You’re eligible for a $100 Amazon Gift Card!</p>
+    <button onclick="logAction('click', 'claim-gift')">Claim Your Reward</button>
+</div>
+
+<div class="popup">
+    <p>🔒 Verify your email address to secure your account.</p>
+    <button onclick="logAction('click', 'verify-email')">Verify Email</button>
+</div>
+
+<a href="/safe" onclick="logAction('navigate', 'to-safe')">⬅ Return to Safe Page</a>
+{% endblock %}

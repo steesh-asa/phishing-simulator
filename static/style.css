@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.safe-header {
+    color: green;
+}
+
+.phish-header {
+    color: red;
+    background: #ffe6e6;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input, button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.urgent-btn {
+    background-color: red;
+    color: white;
+}
+
+.popup {
+    background-color: #fff3cd;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ffeeba;
+    border-radius: 5px;
+}
+
+.popup button {
+    background-color: #ffc107;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+
+.info-text {
+    font-size: 12px;
+    color: gray;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}

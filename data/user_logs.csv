@@ -1,0 +1,6 @@
+timestamp,session_id,username,page_type,action,element,time_on_page_sec
+2025-05-08 19:36:51,472e5137-c14f-4a67-a590-4610e0667fac,guest,safe,hover,Login,6.92
+2025-05-08 19:36:51,472e5137-c14f-4a67-a590-4610e0667fac,guest,safe,hover,Check Balance,7.25
+2025-05-08 19:36:51,472e5137-c14f-4a67-a590-4610e0667fac,guest,safe,hover,Transfer Funds,7.3
+2025-05-08 19:36:54,472e5137-c14f-4a67-a590-4610e0667fac,guest,safe,navigate,to-phish,9.98
+2025-05-08 19:36:56,472e5137-c14f-4a67-a590-4610e0667fac,guest,phish,hover,Unlock Account,2.27

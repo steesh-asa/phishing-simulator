@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page_type|capitalize if page_type else '' }} Simulation</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script>
+    function logAction(action, element) {
+        fetch('/log', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+            body: `action=${action}&element=${element}&page_type={{ page_type }}`
+        });
+    }
+    window.addEventListener('scroll', () => {
+        const scrollPos = window.scrollY + window.innerHeight;
+        const docHeight = document.body.offsetHeight;
+        if (scrollPos / docHeight >= 0.5) {
+            logAction('scroll', '50percent');
+        }
+    });
+    window.onload = function() {
+        document.querySelectorAll('button').forEach(btn => {
+            btn.addEventListener('mouseover', () => {
+                logAction('hover', btn.textContent);
+            });
+        });
+    };
+    </script>
+</head>
+<body>
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

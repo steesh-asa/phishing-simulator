@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>🏆 User Leaderboard</h1>
+<table>
+    <tr>
+        <th>Username</th>
+        <th>Total Actions</th>
+        <th>Safe Actions</th>
+        <th>Phishing Actions</th>
+        <th>Avg Time (sec)</th>
+    </tr>
+    {% for entry in leaderboard %}
+    <tr>
+        <td>{{ entry.username }}</td>
+        <td>{{ entry.total }}</td>
+        <td>{{ entry.safe }}</td>
+        <td>{{ entry.phish }}</td>
+        <td>{{ entry.avg_time }}</td>
+    </tr>
+    {% endfor %}
+</table>
+<a href="/safe">⬅ Back to Simulation</a>
+{% endblock %}
