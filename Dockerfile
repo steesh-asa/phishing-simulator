@@ -1,4 +1,5 @@
-#Use the official Python image from Docker Hub
+#Use the official
+#Python image from Docker Hub
 FROM python:3.9
 
 #Set the working directory inside the container
