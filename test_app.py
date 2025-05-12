@@ -4,7 +4,7 @@ from app import app  # assuming your Flask app is in app.py
 # This is the test for the index route
 def test_index():
     client = app.test_client()  # Create a test client
-    response = client.get('/')  # Send a GET request to the root route
+    response = client.get('/', follow_redirects=True)  # Send a GET request to the root route
     assert response.status_code == 200  # Check that the status code is 200 (OK)
     assert b"Welcome to the Phishing Simulator" in response.data  # Check content
 
